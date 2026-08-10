@@ -1,0 +1,13 @@
+Reference,Value,Footprint,Description,Qty
+U1,LDL1117S33R,SOT-23-5,3.3V fixed LDO regulator,1
+U2,LDL1117S50R,SOT-23-5,5.0V fixed LDO regulator,1
+D1,1N5820,SOD-123,Schottky diode - reverse polarity protection,1
+D2,LTST-C171KGKT,0603 LED,Power-on indicator LED,1
+R1,255R,1206,LED current-limiting resistor,1
+C1,1uF,0805,Input decoupling capacitor (U2 5V rail),1
+C2,1uF,0805,Input decoupling capacitor (U1 3.3V rail),1
+C3,4.7uF,0805,Output decoupling capacitor (U2 5V rail),1
+C4,4.7uF,0805,Output decoupling capacitor (U1 3.3V rail),1
+J1,B2B-PH-K-S,JST PH 2-pin,Battery input connector,1
+J2,PC712A,TBD - confirm part function,Auxiliary connector/switch,1
+J3,Conn_01x04,2.54mm header,Breakout header: BAT/5V/3.3V/GND,1
